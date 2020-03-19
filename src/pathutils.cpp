@@ -28,3 +28,8 @@ QString PathUtils::appicationDataPath()
 #endif
     return path;
 }
+
+QString PathUtils::downloadFolder()
+{
+    return QStandardPaths::standardLocations(QStandardPaths::DownloadLocation).value(0);
+}
