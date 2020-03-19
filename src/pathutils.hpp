@@ -21,6 +21,8 @@ void makeParentPath(const QString &filePath);
 
 QString appicationDataPath();
 
+QString downloadFolder();
+
 }
 
 #endif //PATHUTILS_HPP
